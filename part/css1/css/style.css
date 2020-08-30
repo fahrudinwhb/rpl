@@ -1,0 +1,406 @@
+body{
+    background-color: #08a1ff;
+    font-family: sans-serif;
+}
+/*Beranda*/
+.judul-header{
+    font-size: 350%;
+}
+.judul-bar{
+    width: 100%;
+    height: 35px;
+    border: solid;
+    margin-bottom: 10px;
+    padding: 0px;
+    border-style: none;
+    background-color: skyblue;
+}
+.judul-bar h3{
+    margin: 10px;
+}
+.title{
+    background-color:#08a1ff;
+    border: none;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-right a{
+    margin-right: 25px;
+}
+.judul-pop{
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    background-color: dodgerblue;
+}
+.login{
+    padding: 0px;
+    height: 300px;
+    width: 400px;
+    background-color: darkgray;
+}
+.register{
+    padding: 0px;
+    height: 450px;
+    width: 100%;
+    background-color: darkgray;
+}
+.judul-pop h3{
+    padding: 0px;
+    margin: 0px;
+}
+.logo-name{
+    padding: 20px;
+    font-size: 18px;
+}
+.form-l input#input{
+    width: 300px;
+}
+.form-l input#submit{
+    width: 300px;
+    margin-top: 30px;
+    color: white;
+    background-color: midnightblue;
+}
+.form-r input#input{
+    width: 500px;
+}
+.form-r input#submit{
+    width: 500px;
+    margin-top: 30px;
+    color: white;
+    background-color: midnightblue;
+}
+.ikan-beranda img{
+    height: 300px;
+    width: 100%;
+}
+.ikan-beranda p{
+    color: black;
+}
+.konten-back{
+    background-color: white;
+}
+.logo-header img{
+    height: 100px;
+    width: 200px;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+/*Hubungi*/
+.third-content-a form textarea{
+    height: 80px;
+    width: 500px;
+}
+.mencakup{
+    text-align: center;
+}
+.input {
+    width: auto !important;
+    letter-spacing: 1px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    font-size: 18px;
+    position: relative;
+    top: -70px !important;
+    left: -80px;
+    float: right;
+    background-color: #337ab7;
+    color: aliceblue;
+    width: 70px;
+    height: 40px !important;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.one-four-us {
+    width: 24.3%;
+    height: 200px;
+    margin-left: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.two-four-us {
+    width: 24.3%;
+    height: 200px;
+    margin-left: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.three-four-us {
+    margin-top: 35px;
+    width: 24.3%;
+    height: 200px;
+    margin-left: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.four-four-us {
+    width: 24.3%;
+    height: 200px;
+    margin-left: 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.navbar-default{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.title img{
+    width: 300px;
+    height: 150px;
+}
+.flaticon-home168{
+    color: white;
+}
+.rekomen{
+    background-color: skyblue;
+    margin: 0px;
+}
+
+/*Data ikan*/
+.thumbnail img{
+    width: 100px;
+    height: 50px;
+}
+.effect-dexter{
+    height: 280px;
+    width: 480px;
+}
+
+/*Galeri*/
+.thumbnail img{
+    width: 450px;
+    height: 250px;
+}
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+/*
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+/*Profil*/
+.bio{
+    margin: 0px;
+    padding: 10px;
+    font-size: 17px !important;
+}
+.bio p{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.bio p.user{
+    background-color: skyblue;
+    margin: 0px;
+    font-size: 20px !Important;
+    padding: 10px 20px 10px 20px;
+}
+table.tab{
+    border-spacing: 10px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+img.profil-pic {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+.edit{
+    padding: 0px;
+    height: 450px;
+    width: 100%;
+    background-color: darkgray;
+}
+.form-e input#input{
+    width: 500px;
+}
+.form-e input#submit{
+    width: 500px;
+    margin-top: 30px;
+    color: white;
+    background-color: darkslateblue;
+}
+
+/*Detail*/
+.right-content #title h1 {
+    text-align: left;
+    margin: 0px;
+    color: white;
+    background-color: skyblue;
+    padding: 10px;
+    font-size: 30px;
+}
+h1 {
+    font-family: 'roboto-condensed';
+}
+.right-content .content img.konser {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 70%;
+}
+.content ul li {
+    color: white;
+    display: inline-block;
+    min-width: 18.3%;
+    text-align: center;
+    background-color: lightslategrey;
+}
+.right-content .content p {
+    margin: 0px;
+    color: black;
+}
+#title{
+    padding: 10px;
+}
+.kirim{
+    background-color: #337ab7;
+}
+.content img{
+    width: 700px;;
+}
+.div-rev{
+    
+    padding-bottom: 5px;
+}
+#hr-rev{
+    border-top: none;
+    border-bottom: 1px solid #4F4E4D !important;
+}
+div.image-crop{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+}
+img.profile-pic{
+display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+p.text{
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px !important;
+    display: inline-block;
+    max-width: 320px;
+    color: white;
+    background-color: #16a085;
+    padding: 3px 10px 3px 10px;
+}
+p.text2{
+    margin: 0px;
+    margin-left: 10px !important;
+    display: inline-block;
+    max-width: 320px;
+    min-height: 50px;
+    height: auto;
+    color: white;
+}
+
+/*Tentang Kami*/
+#map {
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+#map-canvas{
+    height: 300px;
+    width: 500px;
+}
+.foto-lokasi{
+    height: 300px;
+    width: 500px;
+}
+
+/*Fasilitas*/
+.fasilitas{
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+    padding: 10px;
+    color: black;
+    margin: 10px;
+}
+.effect-ruby img{
+    height: 280px;
+    width: 480px;
+}
